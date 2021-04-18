@@ -1,0 +1,63 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+
+.game{
+    background-color: aqua;
+    width: 65%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 0 17%;
+    margin-top: 50px;
+
+}
+.top{
+    text-align: center;
+    
+}
+
+#score{
+    text-align: center;
+    color: rebeccapurple;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+   
+}
+.rock{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    margin: 55px 2px ;
+    position: relative;
+  
+}
+.beast{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    left: 25px;
+    top: -35px;
+    z-index: 1; 
+    visibility: hidden;
+}
+.unhide{
+
+    visibility: visible;
+}
+#button{
+    color:black;
+}
+.timer{
+    text-align: center;
+}
+
+
+
